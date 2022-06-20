@@ -1,0 +1,24 @@
+.sidenav {
+    display: flex;
+    width: 170px;
+    background-color: #212121;
+    margin-left: -128px;
+    height: 400px;
+}
+
+i {
+    padding-right: 8px;
+}
+
+#menuiii {
+    margin-left: 120px;
+}
+
+.sidenav:hover {
+    margin-left: unset;
+    transition: 1s;
+}
+
+.mat-drawer-container {
+    background-color: white;
+}

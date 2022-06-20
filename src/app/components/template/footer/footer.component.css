@@ -1,0 +1,15 @@
+.footer {
+    position: fixed;
+    justify-content: flex-end;
+    bottom: 0;
+    display: flex;
+}
+
+.cor {
+    color: yellow;
+}
+
+.footer span {
+    font-size: 16px;
+    font-weight: 300;
+}

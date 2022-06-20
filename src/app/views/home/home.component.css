@@ -1,0 +1,101 @@
+.homecard{
+    background-color: transparent;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+    min-height: 750px;
+    text-align: center;
+}
+
+.title-1 {
+    color: black;
+    font-size: 48px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+mat-card-subtitle {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 28px;
+    color: red;
+}
+
+.cor {
+    color: rgb(0, 26, 255);
+    font-weight: 550;
+}
+
+.title-2 {
+    color: black;
+    font-size: 24px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.card-fotos {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.img1, .img2, .img3 {
+    margin-left: 20px;
+    text-align: center;
+}
+
+img {
+    width: 450px;
+}
+
+.botao-planos {
+    background-color: rgb(0, 26, 255);
+    margin-top: 40px;
+}
+
+.botao-planos:hover {
+    background-color: #0215be;
+}
+
+@media (max-width: 1080px) {
+
+    .title-1 {
+        font-size: 2.2rem;
+        padding-top: unset;
+        padding-top: 10px;
+    }
+
+    .title-2 {
+        padding-top: unset;
+        padding-top: 20px;
+        font-size: 1.1rem;
+    }
+    mat-card-subtitle {
+        font-size: 16px;
+    }
+
+    .homecard {
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    img {
+        max-width: 117%;
+    }
+
+    .card-fotos {
+        display: block;
+    }
+
+    .img1, .img2 {
+        margin-bottom: 5px;
+    }
+
+    .botao-planos {
+        margin-top: 3px;
+    }
+
+    mat-card-title {
+        font-size: 1rem;
+    }
+}

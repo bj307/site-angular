@@ -1,0 +1,153 @@
+p{
+    text-align: center;
+}
+
+.homecard{
+    background-color: transparent;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    min-height: 750px;
+}
+
+.titleplano {
+    position: absolute;
+    font-size: 48px;
+    color: black;
+    padding-top: 30px;
+}
+
+.card-black {
+    width: 400px;
+    background-color: #C0C0C0;
+    margin-top: 100px;
+    height: 500px;
+    text-align: center;
+}
+
+.card-smart {
+    width: 400px;
+    margin-left: 30px;
+    background-color: #C0C0C0;
+    margin-top: 100px;
+    height: 500px;
+    text-align: center;
+}
+
+mat-card-title {
+    text-align: center;
+    background-color: #1C1C1C;
+    border-radius: 5px;
+    margin-bottom: -8px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+mat-card-subtitle {
+    background-color: yellow;
+    border-radius: 5px;
+    margin-bottom: 4px;
+}
+
+mat-card-content {
+    min-height: 300px;
+    background-color: #DCDCDC;
+    border-radius: 5px;
+}
+
+#subtitle2 {
+    font-size: 48px;
+    color: black;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+
+#subtitle1 {
+    color: black;
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+
+.lista-black, .lista-smart {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+li {
+    color: black;
+}
+
+.botao-planos {
+    background-color: rgb(0, 26, 255);
+    margin-top: 15px;
+}
+
+.botao-planos:hover {
+    background-color: #0215be;
+}
+
+.hometable {
+    display: none;
+    color: black;
+}
+
+.mat-tab-label {
+    color: black;
+}
+
+@media (max-width: 1080px) {
+    .homecard {
+        display: none;
+    }
+    .hometable {
+        display: block;
+        color: black;
+        align-items: center;
+    }
+    .mat-tab-labels {
+        margin-left: -200px;
+    }
+
+    .example-small-box, .example-large-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 16px;
+        padding: 8px;
+        border-radius: 8px;
+        background-color: black;
+        color: #fff;
+        font-size: 20px;
+      }
+      .pricebox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 16px;
+        padding: 16px;
+        border-radius: 8px;
+        background-color: yellow;
+        font-size: 32px;
+        margin-top: -10px;
+      }
+      .listbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        padding: 16px;
+        border-radius: 8px;
+        margin-top: -10px;
+        background-color: #b9b1b1;
+        color: black;
+      }
+      ul {
+        margin-left: -10px;
+      }
+}
