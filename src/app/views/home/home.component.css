@@ -45,7 +45,8 @@ mat-card-subtitle {
 }
 
 img {
-    width: 450px;
+    width: calc(100% + 32px);
+    height: 95%;
 }
 
 .botao-planos {
